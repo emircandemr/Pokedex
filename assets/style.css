@@ -48,7 +48,7 @@ body{
 .input{
     margin-top: 20px;
     width:400px;
-    padding: 5px 15px;
+    padding: 8px 15px;
     border-radius: 15px;
     outline: none;
     /* From https://css.glass */
@@ -69,6 +69,12 @@ input{
     cursor: pointer;
 
 }
+
+input::placeholder{
+    color: #ddd;
+    padding-left: 5px;
+    font-style: italic;
+}
 button{
     background: none;
     border: none;
@@ -78,8 +84,9 @@ button{
 .container{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     flex-wrap: wrap;
+    padding: 50px;
 }
 
 .cardBox{
@@ -97,6 +104,11 @@ button{
     justify-content: center;
     align-items: center;
     font-family: 'Signika', sans-serif;;
+    cursor: pointer;
+    transition: 0.2s ease-in-out all;
+}
+.cardBox:hover{
+    transform: scale(1.16);
 }
 
 .cardBox img{
