@@ -1,5 +1,5 @@
 # Pokedex
- Pokedex website with Vanilla Js, Html and Css with
+ Pokedex website with Vanilla Js, Html and Css
 
 #Live : https://pokedex-app-vanillajs.netlify.app
 
